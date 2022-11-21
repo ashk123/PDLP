@@ -3,5 +3,4 @@
 echo "welcome to this program"
 sleep 1
 echo "this program show you, your kernel version"
-echo ""
 echo "your kernel version is: $(uname -r)"
