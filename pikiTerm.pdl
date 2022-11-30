@@ -1,7 +1,7 @@
 --name pikiterm
 --code :
 git clone https://github.com/ashk123/pikiTerm
-sudo rm /usr/local/pikiTerm
+sudo rm -r /usr/local/pikiTerm
 sudo mv pikiTerm /usr/local
 alias asd="python3 /usr/local/pikiTerm/main.py"
 
