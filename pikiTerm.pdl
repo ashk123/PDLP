@@ -2,5 +2,5 @@
 --code :
 git clone https://github.com/ashk123/pikiTerm
 mv pikiTerm /usr/local
-alias asd='/usr/local/pikiTerm/main.py'
+alias asd="/usr/local/pikiTerm/main.py"
 
