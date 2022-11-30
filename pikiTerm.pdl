@@ -1,0 +1,5 @@
+--name pikiterm
+--code :
+git clone https://github.com/ashk123/pikiTerm
+cd pikiTerm
+
