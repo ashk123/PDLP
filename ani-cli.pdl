@@ -1,5 +1,5 @@
 --name ani-cli
--code :
+--code :
 git clone "https://github.com/pystardust/ani-cli.git" && cd ./ani-cli
 sudo cp ./ani-cli /usr/local/bin
 cd .. && rm -rf "./ani-cli"

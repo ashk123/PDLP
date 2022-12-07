@@ -1,0 +1,6 @@
+--name onefetch
+--code :
+curl -s https://api.github.com/repos/o2sh/onefetch/releases/latest | grep "browser_download_url.*linux.tar.gz" | cut -d : -f 2,3 | tr -d \\" | wget -qi -
+tar -xf onefetch-linux.tar.gz
+sudo mv ./onefetch /usr/local/bin
+rm onefetch-linux.tar.gz
