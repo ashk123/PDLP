@@ -1,0 +1,3 @@
+--name nix
+--code :
+sudo curl -L https://nixos.org/nix/install | sh
