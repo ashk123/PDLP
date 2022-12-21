@@ -1,4 +1,6 @@
 --name radare2
+--desc :
+Radare2 is a reverse engineering tool
 --code :
 git clone https://github.com/radareorg/radare2
 radare2/sys/install.sh

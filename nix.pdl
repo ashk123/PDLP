@@ -1,3 +1,5 @@
 --name nix
+--desc :
+Work with nix instead of APT ! :)
 --code :
 sudo curl -L https://nixos.org/nix/install | sh
