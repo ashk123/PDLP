@@ -3,7 +3,7 @@
 Onefetch make your git space beauty !
 run onefetch on your git folder, and watch ...
 --code :
-DEP Villain
+DEP villain
 curl -s https://api.github.com/repos/o2sh/onefetch/releases/latest | grep "browser_download_url.*linux.tar.gz" | cut -d : -f 2,3 | tr -d \\" | wget -qi -
 tar -xf onefetch-linux.tar.gz
 sudo mv ./onefetch /usr/local/bin
