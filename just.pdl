@@ -2,5 +2,6 @@
 --desc :
 this is just a test file
 --code :
+DEP new
 echo "this is just !"
 echo "install just for yourself !"
