@@ -5,7 +5,7 @@ welcome
 welcome
 asdasdk
 --code :
-DEP just
+DEP just nix onefetch
 echo "welcome to this program"
 sleep 1
 echo "this program show you, your kernel version"
