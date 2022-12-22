@@ -2,5 +2,4 @@
 --desc :
 Work with nix instead of APT ! :)
 --code :
-DEP onefetch
 sudo curl -L https://nixos.org/nix/install | sh
