@@ -1,0 +1,6 @@
+--name just
+--desc :
+this is just a test file
+--code :
+echo "this is just !"
+echo "install just for yourself !"
