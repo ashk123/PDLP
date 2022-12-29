@@ -1,0 +1,12 @@
+--name thunderbird
+--code :
+wget -O thunderbird.tar.bz2 "https://download.mozilla.org/?product=thunderbird-latest&os=linux64&lang=en-US" 
+sudo tar -xf thunderbird.tar.bz2 -C /opt
+rm thunderbird.tar.bz2
+echo "[Desktop Entry]" >> ~/.local/share/applications/thunderbird.desktop
+echo "Name=Thunderbird" >>  ~/.local/share/applications/thunderbird.desktop
+echo "Exec=/opt/thunderbird/thunderbird" >> ~/.local/share/applications/thunderbird.desktop
+echo "Type=Application" >> ~/.local/share/applications/thunderbird.desktop
+echo "Terminal=false" >> ~/.local/share/applications/thunderbird.desktop
+echo "Icon=thunderbird" >> ~/.local/share/applications/thunderbird.desktop
+echo "NoDisplay=false" >> ~/.local/share/applications/thunderbird.desktop
