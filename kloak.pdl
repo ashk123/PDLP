@@ -1,0 +1,9 @@
+--name kloak
+--desc :
+Keystroke-level online anonymization 
+kernel: obfuscates typing behavior at the device level.
+--code :
+mkdir asd
+cd asd
+touch main.txt
+echo "Kloak is installed"
