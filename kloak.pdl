@@ -6,4 +6,5 @@ kernel: obfuscates typing behavior at the device level.
 mkdir asd
 cd asd
 touch main.txt
+cd ..
 echo "Kloak is installed"
