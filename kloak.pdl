@@ -3,7 +3,7 @@
 Keystroke-level online anonymization 
 kernel: obfuscates typing behavior at the device level.
 --code :
-https://github.com/vmonaco/kloak.git
+git clone https://github.com/vmonaco/kloak.git
 cd kloak
 make all
 echo "Kloak is installed"
