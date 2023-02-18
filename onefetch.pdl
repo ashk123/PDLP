@@ -3,8 +3,8 @@
 Onefetch make your git space beauty !
 run onefetch on your git folder, and watch ...
 --code :
-curl -s https://api.github.com/repos/o2sh/onefetch/releases/latest | grep "browser_download_url.*linux.tar.gz" | cut -d : -f 2,3 | tr -d \\" | wget -qi -
-tar -xf onefetch-linux.tar.gz
-sudo mv ./onefetch /usr/local/bin
-rm onefetch-linux.tar.gz
+curl https://sh.rustup.rs -sSf | sh -s
+git clone https://github.com/o2sh/onefetch
+cd onefetch
+make install
 echo "onefetch is installed !"
