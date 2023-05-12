@@ -1,5 +1,8 @@
 # PDLP
-PDL packages from users
+PDL main packages repository 
+You can fork this repo with your own files ( maybe we have special respository struct in the future )
 
+<br>
 
-test
+## PDL Web
+Web monitoring system in <a href="https://pdlp.neocities.org">PDLP Webiste</a>
