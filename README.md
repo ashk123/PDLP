@@ -2,7 +2,7 @@
 PDL main packages repository
 
 
-You can fork this repo with your own files ( maybe we have special respository struct in the future )
+You can fork this repo with your own files ( maybe we will have special respository structer in the future )
 
 <br>
 
